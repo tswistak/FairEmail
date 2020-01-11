@@ -3193,7 +3193,9 @@ class Core {
                 builder.setSound(uri);
         }
 
+
         builder.setDefaults(def);
+        builder.setVibrate(new long[]{0, 250, 500, 100});
     }
 
     // FolderClosedException: can happen when no connectivity
